@@ -36,6 +36,7 @@ import {
   linkedin,
   twitter,
   github,
+  java
 } from "../assets";
 
 // Navbar Links
@@ -54,12 +55,7 @@ export const NAV_LINKS = [
     id: "contact",
     title: "Contact",
     link: null,
-  },
-  {
-    id: "source-code",
-    title: "Source Code",
-    link: "http://www.github.com/sanidhyy/3d-portfolio/",
-  },
+  }
 ] as const;
 
 // Services
@@ -69,7 +65,7 @@ export const SERVICES = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -77,7 +73,7 @@ export const SERVICES = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Java Developer",
     icon: creator,
   },
 ] as const;
@@ -136,63 +132,67 @@ export const TECHNOLOGIES = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "Java",
+    icon: java,
+  },
 ] as const;
 
 // Experiences
-export const EXPERIENCES = [
-  {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-] as const;
+// export const EXPERIENCES = [
+//   {
+//     title: "React.js Developer",
+//     company_name: "Starbucks",
+//     icon: starbucks,
+//     iconBg: "#383E56",
+//     date: "March 2020 - April 2021",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   },
+//   {
+//     title: "React Native Developer",
+//     company_name: "Tesla",
+//     icon: tesla,
+//     iconBg: "#E6DEDD",
+//     date: "Jan 2021 - Feb 2022",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   },
+//   {
+//     title: "Web Developer",
+//     company_name: "Shopify",
+//     icon: shopify,
+//     iconBg: "#383E56",
+//     date: "Jan 2022 - Jan 2023",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   },
+//   {
+//     title: "Full stack Developer",
+//     company_name: "Meta",
+//     icon: meta,
+//     iconBg: "#E6DEDD",
+//     date: "Jan 2023 - Present",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   },
+// ] as const;
 
 // Testimonials
 export const TESTIMONIALS = [
@@ -360,23 +360,13 @@ export const PROJECTS = [
 
 export const SOCIALS = [
   {
-    name: "YouTube",
-    icon: youtube,
-    link: "https://www.youtube.com/@OPGAMER.",
-  },
-  {
     name: "Linkedin",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
-  },
-  {
-    name: "Twitter",
-    icon: twitter,
-    link: "https://twitter.com/TechnicalShubam",
+    link: "https://www.linkedin.com/in/mouad-toto-b6484a220/",
   },
   {
     name: "GitHub",
     icon: github,
-    link: "https://github.com/sanidhyy",
+    link: "https://github.com/mouadHILLALI",
   },
 ] as const;

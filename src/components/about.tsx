@@ -54,13 +54,8 @@ export const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I'm a skilled website developer with experience in TypeScript and
-          Javascript, and expertise in frameworks like React, Node.js, and
-          Three.js. I'm a quick learner and collaborate closely with clients to
-          create efficient, scalable, and user-friendly solutions that solve
-          real-world problems. Let's work together to bring your ideas to life!
+         As a dedicated Java Developer, I am passionate about building robust and scalable applications. My journey in software development has equipped me with a strong foundation in both front-end and back-end technologies, with a particular emphasis on Java-based solutions. I have extensive experience in Java, working with frameworks like Spring and Hibernate to deliver efficient backend systems. Additionally, I am proficient in databases, including PostgreSQL, and have a good understanding of modern web technologies like React and Tailwind CSS. I am currently seeking work opportunities, including remote positions.
         </motion.p>
-
         {/* Service Card */}
         <div className="mt-20 flex flex-wrap gap-10">
           {SERVICES.map((service, i) => (
